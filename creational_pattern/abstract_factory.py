@@ -1,5 +1,17 @@
 """
 @author: inc
+抽象工厂的优点：
+分离接口和实现
+
+:key:
+                                       |--DogFactory() -- 创建对象Dog
+                                       |
+          |---show_pet() - 根据参数调用 - |
+          |                            |
+PetShop --|                            |--CatFactory() -- 创建对象Cat
+          |
+          |--__init__()
+
 """
 
 import random
