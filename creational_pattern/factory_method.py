@@ -1,5 +1,5 @@
 '''
-Factory Method
+Factory Method -- Simple Factory Method
 @author : inc
 1.Factory Method
 Define an interface for creating objects, and let the subclass decide which class to instantiate.
@@ -24,6 +24,7 @@ class Person:
         pass
 
 
+# Simple Factory Method
 class Factory:
 
     def FactoryMethod(F_M='F', name='heihei', age=100):

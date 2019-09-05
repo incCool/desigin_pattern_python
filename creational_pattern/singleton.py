@@ -50,8 +50,22 @@ if __name__ == '__main__':
     for i in range(3):
         print("Entity {} begin to run ...".format(i))
         my_entity = VisitEntity()
+        print(id(my_entity.my_bus))
         my_entity.setName("Entity_"+str(i))
         my_entity.start()
+
+"""
+print result:
+    Entity 0 begin to run ...
+    1427620657840
+    Entity 1 begin to run ...
+    1427620657840
+    Entity 2 begin to run ...
+    1427620657840
+    Sending Signal Data ...Entity_0
+    Sending Signal Data ...Entity_1
+    Sending Signal Data ...Entity_2
+"""
 
 
 
