@@ -10,3 +10,15 @@ When a class doesn't know which class of the object create.
 When a class wants to specify the object it creates by its subclasses.
 
 When the class delegates the responsibility of creating an object to one of several help subclasses, and you want to localize which help subclass is the agent.
+
+## 2.Singleton  
+
+## 3.Builder
+
+## 4.Protocol
+
+## 5.Adapter
+
+## 6.Component
+
+## 7.Command
