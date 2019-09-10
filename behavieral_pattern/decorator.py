@@ -19,7 +19,7 @@ def log(func):
 def now():
     print("2019-09-09")
 
-
+# 基类 -- House
 class House:
     door = ""
     wall = ""
